@@ -1,0 +1,55 @@
+
+#basic-nav-dropdown {
+  color: white;
+}
+
+.navbar-nav .a {
+  color: #fff !important;
+}
+
+
+.app-nav a {
+  color: #fff !important;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+}
+
+.dropdown-menu a {
+  color: #000 !important;
+}
+
+.bt-box {
+  border: 1px solid #D8D8D8;
+  border-radius: 6px;
+  min-height: 2rem;
+  display: flex;
+  padding: 0px 8px;
+  align-items: center;
+  height: 2.5rem;
+  background-color: #BDCDD6;
+}
+
+.team-card{
+  border: 1px solid #D8D8D8;
+  border-radius: 4px;
+  display: flex;
+  padding: 0px 8px;
+  align-items: center;
+  background-color: #F0F0F0;
+}
+
+.card-icon {
+  background-color: #f2f2f2;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  margin-left: 4px;
+  padding-left: 2px;
+  cursor: pointer;
+}
+
+.ml-2{
+  margin-left: 2px;
+}

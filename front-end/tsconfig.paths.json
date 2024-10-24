@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "paths": {
+          // Aliases for the folders we want to use
+          "@components": ["./components"],
+          "@pages": ["./pages"],
+          "@network": ["./network"],
+        }
+    }
+}

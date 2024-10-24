@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.app-body {
+  background-color: #f3f3f3;
+  font-family: 'Raleway', sans-serif; 
+
+}
+
+.my-app {
+  background-color: #f3f3f3;
+  // min-height: 100vh;
+  // min-width: 100vw;
+  overflow-x: hidden;
+
+}
+
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #d6dee1;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
+}
+
+.text-link {
+  color: black;
+  text-decoration: none;
+  cursor: default; // Normal cursor when not hovered
+  
+  &:hover {
+    color: blue; // Change the color to blue like a link
+    text-decoration: underline; // Underline to mimic a link
+    cursor: pointer; // Hand pointer to mimic a link
+  }
+}

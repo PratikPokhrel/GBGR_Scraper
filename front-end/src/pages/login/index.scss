@@ -1,0 +1,187 @@
+/* New CSS Styles */
+.container {
+    padding: 16px;
+  }
+  
+  h3 {
+    color: #333;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  .card {
+    background-color: #FAF9F6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 12px 4px;
+    cursor: pointer;
+    // height: 50%;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-body {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .meeting-name {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2A2A2A;
+  }
+  
+  .card-details {
+    font-size: 14px;
+    color: #624E88;
+    margin-top: 6px;
+  }
+  .greyhound-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    th, td {
+      border-top: 1px solid #ddd;
+      border-bottom: 1px solid #ddd;
+      padding: 6px 8px;
+      text-align: center;
+  }
+
+  th {
+      background-color: #f4f4f4;
+      font-weight: bold;
+      font-size: 12px;
+      border-left: 1px solid #ddd; // Ensures outer left and right borders for headers
+      border-right: 1px solid #ddd; 
+      border-left: none;  // Remove the vertical border on the left
+      border-right: none; // Remove the vertical border on the right
+  }
+
+  td {
+      font-size: 12px;
+      border-left: none;  // No inner left border
+      border-right: none; // No inner right border
+  }
+
+  tr:nth-child(even) {
+      background-color: #f9f9f9;
+  }
+
+  tr:hover {
+      background-color: #f1f1f1;
+  }
+
+  }
+  
+  .greyhound-table th, 
+  .greyhound-table td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 6px;
+    text-align: left;
+  }
+  
+  .greyhound-table th {
+    background-color: #624E88;
+    color: #FFF;
+    padding: 8px;
+  }
+  
+  .greyhound-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Trap container for number and greyhound name */
+  .trap-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Trap number styles */
+  .trap-number {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 24px;
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  /* Trap number specific colors */
+  .trap1 {
+    background-color: red;
+  }
+  
+  .trap2 {
+    background-color: blue;
+  }
+  
+  .trap3 {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+  }
+  
+  .trap4 {
+    background-color: black;
+  }
+  
+  .trap5 {
+    background-color: yellow;
+  }
+  
+  .rug {
+    font-weight: bold;
+    padding: 6px 10px;
+  }
+  
+  .rug.blue {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .rug.yellow {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+  
+
+  .text-link {
+    color: black;
+    text-decoration: none;
+    cursor: default; // Normal cursor when not hovered
+    
+    &:hover {
+      color: blue; // Change the color to blue like a link
+      text-decoration: underline; // Underline to mimic a link
+      cursor: pointer; // Hand pointer to mimic a link
+    }
+  }
+
+  .box-number-trap {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 3px;
+    color: #fff;
+  }
+  
+  .box-number-trap.red { background-color: #ff4c4c; }
+  .box-number-trap.blue { background-color: #4c6eff; }
+  .box-number-trap.grey { background-color: #c0c0c0; }
+  .box-number-trap.black { background-color: #000; }
+  .box-number-trap.yellow { background-color: #ffc107; }
+  .box-number-trap.striped { background-image: linear-gradient(45deg, #000 25%, #fff 25%, #fff 50%, #000 50%, #000 75%, #fff 75%, #fff 100%); }
+  
